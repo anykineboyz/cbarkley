@@ -234,7 +234,7 @@ def webhook():
     # EVERY 3RD MESSAGE
     # -----------------------------
 
-    if message_count % 3 == 0:
+    if message_count % 5 == 0:
 
         send_message(
             random.choice(
